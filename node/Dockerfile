@@ -1,5 +1,5 @@
 FROM node:14-alpine
-WORKDIR /usr/app
+WORKDIR /nodedir/app
 COPY ./ ./
 RUN npm install
 CMD ["npm","start"]
