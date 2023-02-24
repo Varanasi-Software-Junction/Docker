@@ -1,3 +1,5 @@
 FROM alpine:latest
 RUN apk add --update busybox
-CMD ["echo","champak"]
+# CMD ["echo","champak"]
+
+CMD ["ping","localhost"]
